@@ -1,20 +1,64 @@
-# Workshop Template
+This is the code for a workshop at RailsConf 2021, see the other workshops on
+the program at https://railsconf.com/program/workshops.
 
-This readme file lays out out a consistent structure for RailsConf 2021 workshops to follow.  We recommend you use this readme to as the basis of your workshop's repo.  Fill in the sections below as appropriate for your workshop.
+# Upgrading Rails: The Dual-Boot Way
 
-# Your Workshop's Title
- 
-Include the description for your workshop.  Typically this would be the same description that you used for the program page.  We do recommend you make it clear this is part of the conference and link back to the conference program page at <https://railsconf.com/program/workshops>.  A good description should include what the workshop covers, what the attendees will get out of the workshop, and the expected skill level of the attendees.
+Upgrading Rails is easy, right? Sure, as long as you are upgrading your patch
+version. A Rails upgrade project for a majestic monolith is not a trivial
+project. While upgrades have become easier with every new Rails version, your
+application has only become more complicated with every new dependency.
+
+In this workshop you will learn a proven Rails upgrade process which relies
+on "dual booting" to quickly iterate and upgrade! You will leave this workshop
+with a new set of tools that will make your next upgrade project less daunting.
+
+You can find more details about this workshop over here:
+[https://railsconf.com/program/workshops#session-1108](https://railsconf.com/program/workshops#session-1108)
 
 For RailsConf 2021, you'll want to link to the Discord channels that will be used, URLs to come.
 
 ## Prerequisites
 
-This section should list out anything that is required by attendees before the workshop starts in order to successfully participate in the workshop.  This is important in case they realize they can't fulfill the prerequisites and thus should reconsider attending.
+When participating in this workshop, you will have two options:
 
+- Upgrade your own Ruby on Rails application, or...
+- Upgrade our sample Ruby on Rails application
+
+### Prerequisites: Upgrading Your Own Ruby on Rails Application
+
+You should be able to run this commands successfully:
+
+```
+bundle install
+bundle exec rake test
+```
+
+Bonus points:
+
+```
+gem install next_rails
+```
+
+### Prerequisites: Upgrading our sample Ruby on Rails application
+
+You will need these applications to upgrade our sample application:
+
+- Docker ([Installation Steps on Mac](https://docs.docker.com/docker-for-mac/install/))
+- Docker Compose ([Installation Steps](https://docs.docker.com/compose/install/))
+
+After installing Docker and docker-compose, you should be able to run these
+commands successfully:
+
+```
+git clone git@github.com:fastruby/pecas.git
+cd pecas
+docker-compose up
+```
 
 ## Getting Ready
 
-This section includes the steps an attendee should take to get fully prepared for the start of the workshop.  If the workshop will be executing code from a starting app, please include all the installation steps to get up and running, including the versions of any languages or tools needed, such as Ruby or Node/NPM.  If there is any homework before the start, list that out too.
+Go to [https://fastruby.io/rails-conf-2021-upgrade-workshop](https://fastruby.io/rails-conf-2021-upgrade-workshop)
+and follow the prerequisites section.
 
-Thanks! Making sure the attendees are prepared goes a long way to having a successfull workshop.
+If you joined late, you should be able to see the section we are in by reading
+the footer in the slides. Hopefully you can catch up with the rest of us!
