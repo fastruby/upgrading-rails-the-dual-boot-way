@@ -52,12 +52,14 @@ commands successfully:
 ```
 git clone git@github.com:fastruby/pecas.git
 cd pecas
-docker-compose up
+docker-compose build
+docker-compose run web /bin/bash
+./bin/setup
 ```
 
 ## Getting Ready
 
-Go to [https://fastruby.io/rails-conf-2021-upgrade-workshop](https://fastruby.io/rails-conf-2021-upgrade-workshop)
+Go to [https://www.fastruby.io/upgrade-workshop-railsconf-2021](https://www.fastruby.io/upgrade-workshop-railsconf-2021)
 and follow the prerequisites section.
 
 If you joined late, you should be able to see the section we are in by reading
