@@ -59,7 +59,7 @@ docker-compose run web /bin/bash
 
 ## Getting Ready
 
-Go to [https://www.fastruby.io/upgrade-workshop-railsconf-2021](https://www.fastruby.io/upgrade-workshop-railsconf-2021)
+Go to [https://www.fastruby.io/rc2021](https://www.fastruby.io/rc2021)
 and follow the prerequisites section.
 
 If you joined late, you should be able to see the section we are in by reading
