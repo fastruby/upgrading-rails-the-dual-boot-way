@@ -64,3 +64,7 @@ and follow the prerequisites section.
 
 If you joined late, you should be able to see the section we are in by reading
 the footer in the slides. Hopefully you can catch up with the rest of us!
+
+## Slides
+
+Here are the slides for our workshop: [Upgrading Rails: The Dual-Boot Way on Speaker Deck](https://speakerdeck.com/etagwerker/upgrading-rails-the-dual-boot-way)
